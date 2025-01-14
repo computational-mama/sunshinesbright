@@ -1,4 +1,10 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sun.cmama.xyz/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'PaperMod'
+title = 'sun shines bright'
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+
+[params]
+	author = "computational mama"
+  description = "This is aims to be a solar-powered website, which means it sometimes goes offline"

@@ -1,7 +1,7 @@
 +++
-date = '{{ .Date }}'
+date = '2025-01-14T21:44:19+05:30'
 draft = true
-title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+title = 'Selfhosting2'
 summary = ""
 lang= "en"
 authors= [""]

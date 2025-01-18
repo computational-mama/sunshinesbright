@@ -1,9 +1,16 @@
 +++
 date = '2025-01-14T13:35:23+05:30'
 draft = false
-title = 'Selfhosting'
+title = 'Self-hosting and perils beyond (part 1)'
+summary = "This page goes over the specific markdown syntax that should be used to write articles, add translations and comments in the new hugo solar web. "
+lang= "en"
+authors= ["Cm" ]
+categories= [""]
+tags= [""]
+unlisted=true
+
+featured_image= "image.png"
 +++
-# Self-hosting and perils beyond (part 1)
 
 Last September, my colleague Kaustubh gave a wonderful talk about how he is self-hosting from an old laptop. He spoke very excitedly about his intentions with it, and how he achieved everything. Kaustabh technical know-how is exceptional, and his communicated the idea very simply. 
 
@@ -11,7 +18,7 @@ It finally gave me a sense of what people say when they use the term â€œserverâ€
 
 After the talk, I was super excited and wondering what it might mean to host my own server, and if I could potentially do it with a rapsberry pi 4 that is lying around!
 
-### Solar dreams
+## Solar dreams
 In Oct/Nov 2024, I sat in on a info session from Rhizome.org, where a speaker explained a long standing project called **Solar Protocol**. This also hosts simple websites on a raspberry pi - the amazing part is that they use Solar power to keep everything running! 
 
 My combined excitement of selfhosting, raspberry pis and solar power source has kicked in hard in 2025 and this post is just a long form of things I did. 
@@ -44,7 +51,6 @@ Apparently, Yunohost once installed and running with portforwarding will split t
 - the domain will serve the frontend/dashboard for your services
 [add screeshot]
 
----
 ## Back to drawing board
 
 After all the Yunohost tears were wiped off. The steps were pretty clear:

@@ -5,6 +5,39 @@ title = 'sun shines bright'
 [markup]
   defaultMarkdownHandler = 'goldmark'
 
+[markup.goldmark]
+  [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+  [markup.goldmark.extensions.typographer]
+        apostrophe = '&rsquo;'
+        disable = false
+        ellipsis = '&hellip;'
+        emDash = '&mdash;'
+        enDash = '&ndash;'
+        leftAngleQuote = '&laquo;'
+        leftDoubleQuote = '&ldquo;'
+        leftSingleQuote = '&lsquo;'
+        rightAngleQuote = '&raquo;'
+        rightDoubleQuote = '&rdquo;'
+        rightSingleQuote = '&rsquo;'
+  [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = false
+      [markup.goldmark.renderHooks.link]
+        enableDefault = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
 [params]
 	author = "computational mama"
   description = "This is aims to be a solar-powered website, which means it sometimes goes offline"
+
+[permalinks]
+	posts = '/:year/:month/:slugorfilename/'
+  categories = '/:slug/'

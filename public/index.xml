@@ -6,21 +6,28 @@
     <description>Recent content on sun shines bright</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jan 2025 13:35:23 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2025 22:42:06 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bill of Materials</title>
+      <link>http://localhost:1313/bom/</link>
+      <pubDate>Sun, 19 Jan 2025 22:42:06 +0530</pubDate>
+      <guid>http://localhost:1313/bom/</guid>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;item&lt;/th&gt;&#xA;          &lt;th&gt;cost&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.in/Skypearll-Controller-Intelligent-Battery-Regulator/&#34;&gt;Solar Charge Controller 20A&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;549&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://amzn.in/d/aX7kRBz&#34;&gt;Solar Panel 55w&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2700&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;12V 8Ah Battery (bought locally)&lt;/td&gt;&#xA;          &lt;td&gt;890&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Solar panels</title>
+      <link>http://localhost:1313/solarpanels/</link>
+      <pubDate>Sun, 19 Jan 2025 02:18:55 +0530</pubDate>
+      <guid>http://localhost:1313/solarpanels/</guid>
+      <description>&lt;p&gt;solar panels&lt;/p&gt;&#xA;&lt;div class=&#34;article-img  vertical&#34;&gt;&#xA;&lt;figure data-imgstate=&#34;dither&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/solarpanels/images/dithers/solarpanel_dithered.png&#34; alt=&#39;info about solar panels&#39; data-original=&#34;http://localhost:1313/solarpanels/images/solarpanel_hu407806846348782291.webp&#34; data-dither=&#34;/solarpanels/images/dithers/solarpanel_dithered.png&#34; loading=&#34;lazy&#34;/&gt; &lt;/figure&gt;&#xA;&lt;div class=&#34;figure-controls&#34;&gt;&#xA;&lt;figcaption class=&#34;caption&#34;&gt;&#xA;&lt;p&gt;info about solar panels &lt;svg class=&#34;dither-toggle icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 100 100&#34;&gt;&#xA;&lt;rect class=&#34;svg_fill&#34; x=&#34;13.51&#34; y=&#34;13.58&#34; width=&#34;24.28&#34; height=&#34;24.28&#34;/&gt;&lt;rect class=&#34;svg_fill&#34; x=&#34;37.93&#34; y=&#34;37.86&#34; width=&#34;24.28&#34; height=&#34;24.28&#34;/&gt;&lt;rect class=&#34;svg_fill&#34; x=&#34;62.21&#34; y=&#34;13.58&#34; width=&#34;24.28&#34; height=&#34;24.28&#34;/&gt;&lt;rect class=&#34;svg_fill&#34; x=&#34;13.51&#34; y=&#34;62.14&#34; width=&#34;24.28&#34; height=&#34;24.28&#34;/&gt;&lt;rect class=&#34;svg_fill&#34; x=&#34;62.21&#34; y=&#34;62.14&#34; width=&#34;24.28&#34; height=&#34;24.28&#34;/&gt;&#xA;&lt;/svg&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;imgindicator&#34;&gt;&#xA;&lt;span class=&#34;tooltip view-orig&#34;&gt;&#xA;  View original image&#xA;&lt;/span&gt;&#xA;&lt;span class=&#34;tooltip view-dither&#34;&gt;&#xA;  View dithered image&#xA;&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;/figcaption&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>Self-hosting and perils beyond (part 1)</title>
       <link>http://localhost:1313/selfhosting/</link>
       <pubDate>Tue, 14 Jan 2025 13:35:23 +0530</pubDate>
       <guid>http://localhost:1313/selfhosting/</guid>
       <description>This page goes over the specific markdown syntax that should be used to write articles, add translations and comments in the new hugo solar web.</description>
-    </item>
-    <item>
-      <title>Sunshine</title>
-      <link>http://localhost:1313/sunshine/</link>
-      <pubDate>Tue, 14 Jan 2025 13:06:01 +0530</pubDate>
-      <guid>http://localhost:1313/sunshine/</guid>
-      <description>&lt;p&gt;hi there&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

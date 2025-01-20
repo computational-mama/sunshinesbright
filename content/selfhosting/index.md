@@ -9,7 +9,7 @@ categories= [""]
 tags= [""]
 unlisted=true
 
-featured_image= "image.png"
+featured_image= "tinyllama.jpeg"
 +++
 
 Last September, my colleague Kaustubh gave a wonderful talk about how he is self-hosting from an old laptop. He spoke very excitedly about his intentions with it, and how he achieved everything. Kaustabh technical know-how is exceptional, and his communicated the idea very simply. 
@@ -78,7 +78,7 @@ The steps for this were:
 
 All these steps worked quite well, but obviously they stop when close the terminal (I’m a forever noob with terminal things)
 
-WhatsApp Image 2025-01-03 at 10.21.43 2.jpeg
+{{% figure src="tinyllama.jpeg" %}} tinyllama {{% /figure %}}
 
 ### Trying Docker
 I have never used docker but it seemed to be an easy and well documented format for servers and in particular for raspberry pi as a server. You can find out more about raspberry pi hosting here: https://pi-hosted.com/, by the amazing youtuber [Nova spirit tech](https://www.youtube.com/channel/UCrjKdwxaQMSV_NDywgKXVmw).

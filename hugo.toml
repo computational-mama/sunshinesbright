@@ -42,3 +42,15 @@ title = 'sun shines bright'
 [permalinks]
 	posts = '/:year/:month/:slugorfilename/'
   categories = '/:slug/'
+
+[[menu.main]]
+  identifier = "why"
+  name = "Why"
+  url = "/why/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "resources"
+  name = "Low-tech Resources"
+  url = "/resources/"
+  weight = 2

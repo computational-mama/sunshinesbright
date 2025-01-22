@@ -2,7 +2,7 @@
 date = '2025-01-19T22:42:06+05:30'
 draft = false
 title = 'Bill of Materials'
-summary = ""
+summary = "A running list of things I've bought"
 lang= "en"
 authors= [""]
 categories= [""]

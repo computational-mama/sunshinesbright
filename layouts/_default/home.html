@@ -1,19 +1,19 @@
 {{ define "main" }}
-  <main aria-role="main">
+<main class="home article-list" >
+    <!-- Recent Articles -->
+    {{ $allposts := where .Site.RegularPages "Type" "in" "posts" }}
    
-      <div class="top article-list">
-     {{default .Site.Params.homepage}}      
-    </a>
-  </div>
-  {{ .Content }}
+    {{ $notunlisted := where .Site.RegularPages ".Params.unlisted" "!=" "true" }}
+    {{ $posts := $allposts | intersect $notunlisted }}
+    {{ $pages := after 1 $posts.ByDate.Reverse }}
+    {{ $recent := first 1 $posts.ByDate.Reverse }}
 
-  {{ range site.RegularPages }}
-  <div class="article-list">
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    </div>
-  {{ end }}
-  </main>
+    <section id="home-listing" class="grid">
+       
+      {{ range $allposts  }}
+      {{ partial "article-list/default" . }}
+  {{ end }}  
+    </section>
+   
+</main>
 {{ end }}
-
-
-

@@ -2,14 +2,15 @@
 date = '2025-01-21T12:42:25+05:30'
 draft = false
 title = 'Ollama on Docker'
-summary = ""
+summary = "Running Language Models on Rapsberry Pi 4"
 lang= "en"
 authors= [""]
 categories= [""]
 tags= [""]
 unlisted=true
-featured_image= "image.png"
+featured_image= "backofPV.png"
 +++
+{{% figure src="backofPV.png" %}} Needed an image for the thumbnail {{% /figure %}}
 
 https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image
 

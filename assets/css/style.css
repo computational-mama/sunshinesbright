@@ -217,23 +217,19 @@ a:hover .icon {
 /*-----------
 CATEGORY COLORS
 -----------*/
-[data-nav=low-tech-solutions],
+[data-nav=why],
 li.low-tech-solutions .category,
 #low-tech-solutions header h1 {
   color: var(--color-low);
 }
 
-[data-nav=high-tech-problems],
+[data-nav=low-tech-resources],
 li.high-tech-problems .category,
 #high-tech-problems header h1 {
   color: var(--color-high);
 }
 
-[data-nav=obsolete-technology],
-li.obsolete-technology .category,
-#obsolete-technology header h1 {
-  color: var(--color-obs);
-}
+
 
 /*-----------
 NAVIGATION

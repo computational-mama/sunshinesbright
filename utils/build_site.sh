@@ -34,16 +34,16 @@ else
         cd $repoDir
 
         echo "Dithering new images"
-        sudo ./venv/bin/python utils/dither_images.py -d $contentDir --colorize
+        /usr/bin/python3 utils/dither_images.py -d $contentDir --colorize
 
         echo "Generating site"
         sudo hugo -b $baseURL --destination $outputDir
 
         echo "Calculating page sizes"
-        sudo ./venv/bin/python utils/calculate_size.py --directory $outputDir --baseURL $baseURL
+        /usr/bin/python3 utils/calculate_size.py --directory $outputDir --baseURL $baseURL
 
         echo "Removing original media from" $outputDir
-        sudo ./venv/bin/python utils/clean_output.py --directory $outputDir
+        /usr/bin/python3 utils/clean_output.py --directory $outputDir
 
         after=`date`
         echo "Site regeneration started $now"

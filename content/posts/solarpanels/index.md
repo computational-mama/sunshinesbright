@@ -2,7 +2,7 @@
 date = '2025-01-19T02:18:55+05:30'
 draft = true
 title = 'Solar panels'
-summary = ""
+summary = "How to choose a solar panel"
 lang= "en"
 authors= [""]
 categories= [""]

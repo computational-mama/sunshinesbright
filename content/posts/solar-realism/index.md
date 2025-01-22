@@ -2,7 +2,7 @@
 date = '2025-01-21T01:47:25+05:30'
 draft = false
 title = 'Solar Realism'
-summary = ""
+summary = "How to get your solar power up and running"
 lang= "en"
 authors= [""]
 categories= [""]

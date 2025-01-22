@@ -36,7 +36,8 @@ title = 'sun shines bright'
 
 [params]
 	author = "computational mama"
-  description = "This is aims to be a solar-powered website, which means it sometimes goes offline"
+  description = "This is a solar-powered website, which means it sometimes goes offline. It's self-hosted in Udaipur, India."
+  homepage = "This website currently documents the setup process and some of the other public projects and experiments run by Computational Mama."
 
 [permalinks]
 	posts = '/:year/:month/:slugorfilename/'

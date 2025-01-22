@@ -3,13 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-19T22:42:06+05:30</lastmod>
+    <lastmod>2025-01-21T12:42:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ollama-on-docker/</loc>
+    <lastmod>2025-01-21T12:42:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/solar-realism/</loc>
+    <lastmod>2025-01-21T01:47:25+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/bom/</loc>
     <lastmod>2025-01-19T22:42:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/solarpanels/</loc>
-    <lastmod>2025-01-19T02:18:55+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/selfhosting/</loc>
     <lastmod>2025-01-14T13:35:23+05:30</lastmod>

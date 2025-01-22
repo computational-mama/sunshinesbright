@@ -1,6 +1,13 @@
 {{ define "main" }}
+  <div class="top article-list">
+     {{default .Site.Params.homepage}}      
+    </a>
+  </div>
   {{ .Content }}
+
   {{ range site.RegularPages }}
+  <div class="article-list">
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    </div>
   {{ end }}
 {{ end }}

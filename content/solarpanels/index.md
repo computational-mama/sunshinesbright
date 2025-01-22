@@ -1,6 +1,6 @@
 +++
 date = '2025-01-19T02:18:55+05:30'
-draft = false
+draft = true
 title = 'Solar panels'
 summary = ""
 lang= "en"

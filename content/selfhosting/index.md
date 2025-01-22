@@ -1,7 +1,7 @@
 +++
 date = '2025-01-14T13:35:23+05:30'
 draft = false
-title = 'Self-hosting and perils beyond (part 1)'
+title = 'Self-hosting and perils beyond'
 summary = "This page goes over the specific markdown syntax that should be used to write articles, add translations and comments in the new hugo solar web. "
 lang= "en"
 authors= ["Cm" ]
@@ -81,9 +81,13 @@ All these steps worked quite well, but obviously they stop when close the termin
 {{% figure src="tinyllama.jpeg" %}} tinyllama {{% /figure %}}
 
 ### Trying Docker
-I have never used docker but it seemed to be an easy and well documented format for servers and in particular for raspberry pi as a server. You can find out more about raspberry pi hosting here: https://pi-hosted.com/, by the amazing youtuber [Nova spirit tech](https://www.youtube.com/channel/UCrjKdwxaQMSV_NDywgKXVmw).
+I have never used docker but it seemed to be an easy and well documented format for servers and in particular for Raspberry Pi as a server. You can find more about Raspberry Pi hosting here: https://pi-hosted.com/, by the amazing youtuber [Nova spirit tech](https://www.youtube.com/channel/UCrjKdwxaQMSV_NDywgKXVmw).
 
-You can follow the instructions available on their website! 
+You can follow the instructions available on their website/youtube playlist! 
 
-Once I tested simpler Docker containers like Jellyfin, etc. I
+Once I tested simpler Docker containers like Jellyfin, etc. I was interested in running Ollama+OpenwebUI as a docker container. There are several tutorials from this but I think the best solution to this was the most obvious one - [using OpenwebUI's README!](https://github.com/open-webui/open-webui?tab=readme-ov-file#installing-open-webui-with-bundled-ollama-support) (credit to [sud](https://x.com/theonesud) who shared this link with me!) 
+
+This was very exciting - however I had no active cooling on my raspberry pi 4, and it was overheating the board (could smell some plastic burning!). 
+
+I'll write more about the solar connection in the next [post]({{< ref "/solar-realism" >}})
 

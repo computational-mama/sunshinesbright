@@ -8,7 +8,6 @@ authors= ["Cm" ]
 categories= [""]
 tags= [""]
 unlisted=true
-
 featured_image= "tinyllama.jpeg"
 +++
 
@@ -89,5 +88,5 @@ Once I tested simpler Docker containers like Jellyfin, etc. I was interested in 
 
 This was very exciting - however I had no active cooling on my raspberry pi 4, and it was overheating the board (could smell some plastic burning!). 
 
-I'll write more about the solar connection in the next [post]({{< ref "/solar-realism" >}})
+I'll write more about the solar connection in the next [post]({{< ref "/posts/solar-realism" >}})
 

@@ -1,5 +1,7 @@
 {{ define "main" }}
-  <div class="top article-list">
+  <main aria-role="main">
+   
+      <div class="top article-list">
      {{default .Site.Params.homepage}}      
     </a>
   </div>
@@ -10,4 +12,8 @@
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     </div>
   {{ end }}
+  </main>
 {{ end }}
+
+
+

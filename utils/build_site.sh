@@ -35,6 +35,7 @@ else
 
         echo "Create virtual env"
         sudo python3 -m venv venv
+        sudo venv/bin/pip Pillow git+https://github.com/hbldh/hitherdither.git bs4
 
         echo "Dithering new images"
         sudo venv/bin/python utils/dither_images.py -d $contentDir --colorize

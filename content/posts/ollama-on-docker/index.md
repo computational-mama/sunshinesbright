@@ -10,7 +10,6 @@ tags= [""]
 unlisted=true
 featured_image= "backofPV.png"
 +++
-{{% figure src="backofPV.png" %}} Needed an image for the thumbnail {{% /figure %}}
 
 https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image
 

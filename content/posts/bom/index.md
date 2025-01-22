@@ -8,7 +8,7 @@ authors= [""]
 categories= [""]
 tags= [""]
 unlisted=true
-featured_image= "image.png"
+featured_image= "solarbills.png"
 +++
 
 | item | cost |

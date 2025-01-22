@@ -52,5 +52,5 @@ title = 'sun shines bright'
 [[menu.main]]
   identifier = "resources"
   name = "Low-tech Resources"
-  url = "/resources/"
+  url = "/lowtechresources/"
   weight = 2

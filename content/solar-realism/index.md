@@ -11,7 +11,7 @@ unlisted=true
 featured_image= "solardiagram.png"
 +++
 
-This most daunting part of build the setup was to get all the power connections operating correctly. As it turns out, it took me like 10 minutes to set it up! The diagram will give you an idea of how it works! 
+This was most daunting part of build the setup was to get all the power connections operating correctly. As it turns out, it took me like 10 minutes to set it up! The diagram will give you an idea of how it works! 
 
 {{% figure src="solardiagram.png" %}} This is how I set up the solar server on a small balcony {{% /figure %}}
 

@@ -16,3 +16,11 @@ I've pondering about this idea to have some solar powered infrastructure. Primar
 
 ## Why Now?
 Mix of motivation, money, better knowledge and general inspiration.
+
+## How can you help?
+Aside from good vibes and good sunshine: 
+- Ping me to learn about setting it up 
+- Help me with setting up easier formats to help other's self host
+- Solar serve your work with me! 
+
+[DM me on instagram for this! ](https://www.instagram.com/computational_mama/)

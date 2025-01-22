@@ -33,17 +33,20 @@ else
 
         cd $repoDir
 
+        echo "Create virtual env"
+        sudo python3 -m venv venv
+
         echo "Dithering new images"
-        /usr/bin/python3 utils/dither_images.py -d $contentDir --colorize
+        sudo venv/bin/python utils/dither_images.py -d $contentDir --colorize
 
         echo "Generating site"
         sudo hugo -b $baseURL --destination $outputDir
 
         echo "Calculating page sizes"
-        /usr/bin/python3 utils/calculate_size.py --directory $outputDir --baseURL $baseURL
+        sudo venv/bin/python utils/calculate_size.py --directory $outputDir --baseURL $baseURL
 
         echo "Removing original media from" $outputDir
-        /usr/bin/python3 utils/clean_output.py --directory $outputDir
+        sudo venv/bin/python utils/clean_output.py --directory $outputDir
 
         after=`date`
         echo "Site regeneration started $now"

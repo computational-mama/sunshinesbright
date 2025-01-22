@@ -41,7 +41,7 @@ else
         sudo venv/bin/python utils/dither_images.py -d $contentDir --colorize
 
         echo "Generating site"
-        sudo hugo -b $baseURL --destination $outputDir
+        sudo hugo
 
         echo "Calculating page sizes"
         sudo venv/bin/python utils/calculate_size.py --directory $outputDir --baseURL $baseURL

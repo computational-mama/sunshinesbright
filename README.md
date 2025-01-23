@@ -1,13 +1,22 @@
 ## Folder structure 
-
-posts/
-|-firstpost/
+```
+content/
+|-posts/
+|  |-firstpost/
+|  |  |-index.md
+|  |  |-images/
+|  |    |-img.png 
+|  │    ├── dithers
+|  │    │   ├── img_dithered.png
+|  |-secondpost/
+|  |  |-index.md
+|  |  |-images/
+|  |    |-img2.png 
+|  │    ├── dithers
+|  │    │   ├── img2_dithered.png
+|-extrapage/
 |  |-index.md
-|  |-images/
-|    |-img.png 
-│    ├── dithers
-│    │   ├── img_dithered.png
-
+```
 
 ### Make a new post 
 

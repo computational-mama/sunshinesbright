@@ -27,4 +27,6 @@ On my to-dos with this experiment are:
 
 - Running tinyllama with RAG, just like my Gooey Copilot - [Measuring Silences](https://computationalmama.xyz/silence-bot)
 
-- Test fine-tuning of Tinyllama to run Measuring Silences (or similar) without RAG (i have never finetuned an LLM and I think this will make for an interesting project). Note: RASPBERRY PI PROBABLY CAN'T HANDLE THE TRAINING OF A LANGUAGE MODEL SO THIS PART OF THE EXPERIMENT WONT BE SOLAR (EVEN IF I DO IT ON MY MACBOOK M1 LOCALLY). 
+- Test fine-tuning of Tinyllama to run Measuring Silences (or similar) without RAG (i have never finetuned an LLM and I think this will make for an interesting project). 
+  
+Note: RASPBERRY PI PROBABLY CAN'T HANDLE THE TRAINING OF A LANGUAGE MODEL SO THIS PART OF THE EXPERIMENT WONT BE SOLAR (EVEN IF I DO IT ON MY MACBOOK M1 LOCALLY). 

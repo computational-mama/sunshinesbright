@@ -2,7 +2,7 @@
 date = '2025-01-14T13:35:23+05:30'
 draft = false
 title = 'Self-hosting and perils beyond'
-summary = "This page goes over the specific markdown syntax that should be used to write articles, add translations and comments in the new hugo solar web. "
+summary = "A longer post about Self hosting and why I'm doing all this!"
 lang= "en"
 authors= ["Cm" ]
 categories= [""]
@@ -11,14 +11,14 @@ unlisted=true
 featured_image= "tinyllama.jpeg"
 +++
 
-Last September, my colleague Kaustubh gave a wonderful talk about how he is self-hosting from an old laptop. He spoke very excitedly about his intentions with it, and how he achieved everything. Kaustabh technical know-how is exceptional, and his communicated the idea very simply. 
+Last September, my colleague [Kaustubh gave a wonderful talk](https://www.youtube.com/watch?v=hQtYPGbl9gE) about how he is self-hosting from an old laptop. He spoke very excitedly about his intentions with it, and how he achieved everything. Kaustabh technical know-how is exceptional, and he communicated the idea very simply. 
 
 It finally gave me a sense of what people say when they use the term “server”. I think it never struck me that it quite literally means “to serve”. So the server, _serves_ websites or other computatational things! 
 
 After the talk, I was super excited and wondering what it might mean to host my own server, and if I could potentially do it with a rapsberry pi 4 that is lying around!
 
 ## Solar dreams
-In Oct/Nov 2024, I sat in on a info session from Rhizome.org, where a speaker explained a long standing project called **Solar Protocol**. This also hosts simple websites on a raspberry pi - the amazing part is that they use Solar power to keep everything running! 
+In Oct/Nov 2024, I sat in on a info session from [Rhizome.org](https://rhizome.org/), where a speaker explained a long standing project called **[Solar Protocol](https://solarprotocol.net/)**. This also hosts simple websites on a raspberry pi - the amazing part is that they use Solar power to keep everything running! 
 
 My combined excitement of selfhosting, raspberry pis and solar power source has kicked in hard in 2025 and this post is just a long form of things I did. 
 
@@ -30,15 +30,13 @@ Sure enough, this a simple image flash, YUNOHOST was installed and the admin pan
 
 The diagnostics tool told me that everything was looking fine aside from my port forwarding. 
 
-[what does this mean - need some explainer/drawing]
-
 After some more youtube-ing, and weird bumps on the way, I was able to get all the port forwarding details in place. But nothing worked!
 
 I called my ISP team, and they assured me it wasn’t on their end and all the ports were open! So I struggled a bit more, searching through the internet and youtube! 
 
 In the searches, two things kept coming back: 
 1. A playlist by Pi-hosted which uses RaspiOS+portainer.io (a docker something) and,
-2. “Tunneling” instead of port forwarding 
+2. “Tunnels” instead of port forwarding 
 
 I kept resisting the solutions trying my best to get Yunohost up and running. Finally the ISP connected me to their senior networking engineer, and he explained that I have to buy the public static IP. This service is 2.5x the cost in Udaipur (perhaps as the ISP is local this request is not as common). 
 
@@ -46,19 +44,17 @@ After a quick chat with Kaustubh about this, I decided to try a tunnel with Clou
 
 Apparently, Yunohost once installed and running with portforwarding will split the use of the localhost and the dedicated domain in two parts:
 - the localhost will serve only as admin interface 
-[add screenshot]
 - the domain will serve the frontend/dashboard for your services
-[add screeshot]
 
 ## Back to drawing board
 
-After all the Yunohost tears were wiped off. The steps were pretty clear:
+After all the Yunohost tears were wiped away. The steps were pretty clear:
 
 1. Install raspiOS headless (this was easy as I have tried this several times)
 2. Test the services I want to host like the LLM, Jellyfin etc. 
 3. Host via docker to things are running neatly in containers (I’m still a noob on this stuff - but had to figure it out as best I could)
 4. Test the services on docker and decide what happens next
-5. Take the plunge into solar powering this shindig! 
+5. [Take the plunge into solar powering this shindig!]({{< ref "/posts/solar-realism" >}}) 
 6. See where this goes! :) 
 
 For this post, I will focus on steps 2, 3 and 4 (Step 5 is still a dream)!  
@@ -88,5 +84,5 @@ Once I tested simpler Docker containers like Jellyfin, etc. I was interested in 
 
 This was very exciting - however I had no active cooling on my raspberry pi 4, and it was overheating the board (could smell some plastic burning!). 
 
-I'll write more about the solar connection in the next [post]({{< ref "/posts/solar-realism" >}})
+I'll write more about the solar connection in the next [post]({{< ref "/posts/solar-realism" >}}).
 

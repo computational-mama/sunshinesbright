@@ -3,54 +3,60 @@ languageCode = 'en-us'
 title = 'sun shines bright'
 
 [markup]
-  defaultMarkdownHandler = 'goldmark'
+defaultMarkdownHandler = 'goldmark'
 
 [markup.goldmark]
-  [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      linkifyProtocol = 'https'
-      strikethrough = true
-      table = true
-      taskList = true
-  [markup.goldmark.extensions.typographer]
-        apostrophe = '&rsquo;'
-        disable = false
-        ellipsis = '&hellip;'
-        emDash = '&mdash;'
-        enDash = '&ndash;'
-        leftAngleQuote = '&laquo;'
-        leftDoubleQuote = '&ldquo;'
-        leftSingleQuote = '&lsquo;'
-        rightAngleQuote = '&raquo;'
-        rightDoubleQuote = '&rdquo;'
-        rightSingleQuote = '&rsquo;'
-  [markup.goldmark.renderHooks]
-      [markup.goldmark.renderHooks.image]
-        enableDefault = false
-      [markup.goldmark.renderHooks.link]
-        enableDefault = false
-  [markup.goldmark.renderer]
-    unsafe = true
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+linkifyProtocol = 'https'
+strikethrough = true
+table = true
+taskList = true
+[markup.goldmark.extensions.typographer]
+apostrophe = '&rsquo;'
+disable = false
+ellipsis = '&hellip;'
+emDash = '&mdash;'
+enDash = '&ndash;'
+leftAngleQuote = '&laquo;'
+leftDoubleQuote = '&ldquo;'
+leftSingleQuote = '&lsquo;'
+rightAngleQuote = '&raquo;'
+rightDoubleQuote = '&rdquo;'
+rightSingleQuote = '&rsquo;'
+[markup.goldmark.renderHooks]
+[markup.goldmark.renderHooks.image]
+enableDefault = false
+[markup.goldmark.renderHooks.link]
+enableDefault = false
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
-	author = "computational mama"
-  description = "This is a solar-powered website, which means it sometimes goes offline. It's self-hosted in Udaipur, India."
-  homepage = "This website currently documents the setup process and some of the other public projects and experiments run by Computational Mama."
+author = "computational mama"
+description = "This is a solar-powered website, which means it sometimes goes offline. It's self-hosted in Udaipur, India."
+homepage = "This website currently documents the setup process and some of the other public projects and experiments run by Computational Mama."
 
 [permalinks]
-	posts = '/:year/:month/:slugorfilename/'
-  categories = '/:slug/'
+posts = '/:year/:month/:slugorfilename/'
+categories = '/:slug/'
 
 [[menu.main]]
-  identifier = "why"
-  name = "Why"
-  url = "/why/"
-  weight = 1
+identifier = "why"
+name = "Why"
+url = "/why/"
+weight = 1
 
 [[menu.main]]
-  identifier = "resources"
-  name = "Low-tech Resources"
-  url = "/lowtechresources/"
-  weight = 2
+identifier = "how"
+name = "How"
+url = "/how/"
+weight = 2
+
+[[menu.main]]
+identifier = "resources"
+name = "Low-tech Resources"
+url = "/lowtechresources/"
+weight = 3

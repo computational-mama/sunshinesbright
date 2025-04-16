@@ -57,6 +57,6 @@ weight = 2
 
 [[menu.main]]
 identifier = "resources"
-name = "Low-tech Resources"
+name = "Resources"
 url = "/lowtechresources/"
 weight = 3

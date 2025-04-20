@@ -33,11 +33,14 @@ The username and piname are fixed in the settings when you are flashing the sd c
 
 {{% figure src="settings.jpg" %}} settings {{% /figure %}}
 
+You can now ssh into the pi remotely.
+
 ```bash
 ssh <yourusername>@<yourpiname>.local
 ```
+Do remember to update and upgrade the OS, before installing any of the Docker files.
 
-```
+```bash
 sudo apt update
 sudo apt upgrade
 ```

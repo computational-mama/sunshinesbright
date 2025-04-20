@@ -3,7 +3,6 @@ date = '2025-01-24T23:04:39+05:30'
 draft = false
 title = 'LLM can only bro :('
 summary = "How I keep discovering AI biases"
-lang= "en"
 authors= [""]
 categories= [""]
 tags= [""]

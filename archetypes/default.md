@@ -3,7 +3,6 @@ date = '{{ .Date }}'
 draft = true
 title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 summary = ""
-lang= "en"
 authors= [""]
 categories= [""]
 tags= [""]

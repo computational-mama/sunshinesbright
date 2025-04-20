@@ -3,7 +3,6 @@ date = '2025-01-23T23:13:38+05:30'
 draft = false
 title = 'Power'
 summary = ""
-lang= "en"
 authors= [""]
 categories= [""]
 tags= [""]

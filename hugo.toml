@@ -1,6 +1,6 @@
 baseURL = 'https://solar.cmama.xyz/'
 languageCode = 'en-us'
-title = '☀ sun shines bright ☀'
+title = 'sun shines bright'
 
 [markup]
 defaultMarkdownHandler = 'goldmark'

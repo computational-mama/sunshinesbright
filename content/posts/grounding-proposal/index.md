@@ -9,7 +9,7 @@ tags= [""]
 unlisted=true
 featured_image= "sunshinesbright-repimg.jpg"
 +++
-With help of Sameera Mudgal and other collaborators, we have shared a proposal to extend the ideas of Sun Shines Bright to the community.
+**With help of Sameera Mudgal and other collaborators, we have shared a proposal to extend the ideas of Sun Shines Bright to the community.**
 
 > Embracing grounding as a sharing and learning experience for the community over making and hacking.
 

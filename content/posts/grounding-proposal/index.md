@@ -1,6 +1,6 @@
 +++
 date = '2025-10-06T00:34:45+02:00'
-draft = true
+draft = false
 title = 'Community-learned Language Models'
 summary = "Proposal to extend Sun Shines Bright"
 authors= [""]

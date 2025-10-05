@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = 'en-us'
-title = 'sun shines bright [archive]'
+title = 'sun shines bright'
 
 [markup]
 [markup.goldmark]
@@ -27,7 +27,7 @@ xhtml = false
 
 [params]
 author = "computational mama"
-description = "This is a solar-powered website, which means it sometimes goes offline. It's self-hosted in Udaipur, India."
+description = "This (WAS) a solar-powered website, which means it sometimes goes offline. It's self-hosted in Zaandam, Netherlands."
 homepage = "This website currently documents the setup process and some of the other public projects and experiments run by Computational Mama."
 
 [permalinks]
@@ -57,3 +57,9 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 4
+
+[[menu.main]]
+identifier = "ollamasettings"
+name = "Ollama Settings"
+url = "/ollamasettings/"
+weight = 5

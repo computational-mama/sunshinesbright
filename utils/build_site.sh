@@ -4,7 +4,7 @@
 # Support your local low-tech magazine: https://solar.lowtechmagazine.com/donate/
 
 now=`date`
-baseURL="https://solar.cmama.xyz" #the URL of the website e.g. htttps://solar.lowtechmagazine.com/
+baseURL="https://solararchive.cmama.xyz" #the URL of the website e.g. htttps://solar.lowtechmagazine.com/
 contentDir="content/" #the directory where your HUGO articles are e.g. /path/to/repo/solar_v2/content/
 repoDir="/var/www/sunarchive" #the full path to the repository
 outputDir="public/" # the directory where you export the site to.

@@ -3,9 +3,8 @@ languageCode = 'en-us'
 title = 'sun shines bright [archive]'
 
 [markup]
-defaultMarkdownHandler = 'goldmark'
-
 [markup.goldmark]
+duplicateResourceFiles = false
 [markup.goldmark.extensions]
 definitionList = true
 footnote = true
@@ -14,25 +13,17 @@ linkifyProtocol = 'https'
 strikethrough = true
 table = true
 taskList = true
-[markup.goldmark.extensions.typographer]
-apostrophe = '&rsquo;'
-disable = false
-ellipsis = '&hellip;'
-emDash = '&mdash;'
-enDash = '&ndash;'
-leftAngleQuote = '&laquo;'
-leftDoubleQuote = '&ldquo;'
-leftSingleQuote = '&lsquo;'
-rightAngleQuote = '&raquo;'
-rightDoubleQuote = '&rdquo;'
-rightSingleQuote = '&rsquo;'
 [markup.goldmark.renderHooks]
 [markup.goldmark.renderHooks.image]
 enableDefault = false
+useEmbedded = 'auto'
 [markup.goldmark.renderHooks.link]
 enableDefault = false
+useEmbedded = 'auto'
 [markup.goldmark.renderer]
+hardWraps = false
 unsafe = true
+xhtml = false
 
 [params]
 author = "computational mama"

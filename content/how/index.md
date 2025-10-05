@@ -3,7 +3,6 @@ date = '2025-04-15T12:38:01+05:30'
 draft = false
 title = 'How'
 summary = ""
-lang= "en"
 authors= [""]
 categories= [""]
 tags= [""]

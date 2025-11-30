@@ -24,7 +24,7 @@ fi
 
 
 if  echo $updated | grep -q "Already up to date";
-then 
+then
         echo "Git up to date $now"
 else
         echo "Git was not up to date"
@@ -33,21 +33,24 @@ else
 
         cd $repoDir
 
-        echo "Create virtual env"
-        sudo python3 -m venv venv
-        sudo venv/bin/pip install Pillow git+https://github.com/hbldh/hitherdither.git bs4
+        #echo "Create virtual env"
+        #sudo python3 -m venv venv
+        #sudo venv/bin/pip install Pillow git+https://github.com/hbldh/hitherdither.git bs4
+
+        # Start the venv
+        source venv/bin/activate
 
         echo "Dithering new images"
-        sudo venv/bin/python utils/dither_images.py -d $contentDir --colorize
+        sudo python utils/dither_images.py -d $contentDir --colorize
 
         echo "Generating site"
         sudo hugo
 
         echo "Calculating page sizes"
-        sudo venv/bin/python utils/calculate_size.py --directory $outputDir --baseURL $baseURL
+        sudo python utils/calculate_size.py --directory $outputDir --baseURL $baseURL
 
         echo "Removing original media from" $outputDir
-        sudo venv/bin/python utils/clean_output.py --directory $outputDir
+        sudo sudo python utils/clean_output.py --directory $outputDir
 
         after=`date`
         echo "Site regeneration started $now"

@@ -25,6 +25,8 @@ Note this is a `jsonl` format so you don't need to add commas at the end of each
 
 MLX is an array framework for machine learning on Apple silicon and MLX-LM is for generating text and fine-tuning large language models on Apple silicon with MLX. 
 
+More about [MLX](https://github.com/ml-explore/mlx) and [MLX-LM](https://github.com/ml-explore/mlx-lm)
+
 ```bash
 python3 -m venv femdata
 source femdata/bin/activate

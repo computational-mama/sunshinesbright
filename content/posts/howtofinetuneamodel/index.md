@@ -10,6 +10,7 @@ unlisted=true
 featured_image= "runlora.png"
 +++
 ## Fine tuning with small dataset
+This project was made in collaboration with [Sameera Mudgal](https://www.linkedin.com/in/sameeramudgal/) and received funding from [DATACRAFT](https://www.hesge.ch/head/en/project/datacraft-custom-datasets-artists-and-designers) project.
 
 You can also follow along with this video tutorial: https://youtu.be/HcTCjy5czWg
 

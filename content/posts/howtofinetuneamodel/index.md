@@ -14,6 +14,9 @@ This project was made in collaboration with [Sameera Mudgal](https://www.linkedi
 
 You can also follow along with this video tutorial: https://youtu.be/HcTCjy5czWg
 
+{{< youtube id="HcTCjy5czWg" >}}
+
+
 ### Create the dataset
 The format that works best is to have the Q&A in the format below. 
 Note this is a `jsonl` format so you don't need to add commas at the end of each line. 

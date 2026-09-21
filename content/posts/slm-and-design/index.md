@@ -18,7 +18,7 @@ This week I have been working with students from HEAD Geneve on AI and Climate a
 
 ## Day 1 
 
-We talk about AI, various things in the world, general impact and finally how we can think about it differently - talking about feminist and non-western critical frameworks. (not sure about the second half maybe we can watch "Humans in the Loop") 
+We talk about AI, various things in the world, general impact and finally how we can think about it differently - talking about feminist and non-western critical frameworks.
 
 On a tldraw page we share things about AI that are exciting and what scares us. 
 
@@ -26,7 +26,7 @@ https://www.tldraw.com/f/Gt5zyWCJ94NzpV_y8WWyj?d=v-1002.-449.4789.2354.page
 
 {{% figure src="tldraw-ss.png" %}} Screenshot of TLDRAW {{% /figure %}}
 
-We also saw some interesting reference for data labour including my current favourite movie "Humans in the Loop". One of the students (Antony) also shared this very nice journalistic video piece from the [New York Times](https://www.nytimes.com/video/opinion/100000010486246/their-eyes.html).
+We also saw some interesting reference for data labour including my current favourite movie, [Humans in the Loop](https://www.netflix.com/title/82171953) (about 70 mins). One of the students (Antony) also shared this very nice journalistic video piece from the [New York Times](https://www.nytimes.com/video/opinion/100000010486246/their-eyes.html).
 
 ## Day 2 
 
@@ -40,4 +40,15 @@ And we also installed and tested local language models on our own computers to u
 
 ## Day 3
 
-From Day 3 onwards
+We built out our ideas as prototypes. Some were physical, some digital and some conversational.
+
+## Day 4
+
+Two halves.
+
+- In the first half, we learnt how to fine-tune our own models and host them. I have a written guide if you want to try this yourself: [How to fine-tune a Model]({{< ref "/posts/howtofinetuneamodel" >}}).
+- In the second half, we looked for ways to connect the models to our prototypes. We also looked for the gaps, both in what the tech can do and in what our prototypes need.
+
+## Day 5
+
+We tried to settle on a final idea for a bot and presented it to our peers.

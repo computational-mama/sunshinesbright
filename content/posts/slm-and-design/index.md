@@ -1,6 +1,6 @@
 +++
 date = '2026-02-13T17:21:21+01:00'
-draft = false
+draft = true
 title = 'SLMs and Design'
 summary = "Can this be a movement and not just a project?"
 authors= [""]
@@ -40,5 +40,4 @@ And we also installed and tested local language models on our own computers to u
 
 ## Day 3
 
-From Day 3 onwards 
-
+From Day 3 onwards

@@ -63,3 +63,9 @@ identifier = "ollamasettings"
 name = "Ollama Settings"
 url = "/ollamasettings/"
 weight = 5
+
+[[menu.main]]
+identifier = "zines"
+name = "Zines"
+url = "/zines/"
+weight = 6

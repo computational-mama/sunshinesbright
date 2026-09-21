@@ -15,11 +15,9 @@ table = true
 taskList = true
 [markup.goldmark.renderHooks]
 [markup.goldmark.renderHooks.image]
-enableDefault = false
-useEmbedded = 'auto'
+useEmbedded = 'never'
 [markup.goldmark.renderHooks.link]
-enableDefault = false
-useEmbedded = 'auto'
+useEmbedded = 'never'
 [markup.goldmark.renderer]
 hardWraps = false
 unsafe = true
@@ -31,7 +29,7 @@ description = "This (WAS) a solar-powered website, which means it sometimes goes
 homepage = "This website currently documents the setup process and some of the other public projects and experiments run by Computational Mama."
 
 [permalinks]
-posts = '/:year/:month/:slugorfilename/'
+posts = '/:year/:month/:slugorcontentbasename/'
 categories = '/:slug/'
 
 [[menu.main]]

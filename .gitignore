@@ -14,3 +14,7 @@ public/index.xml
 public/sitemap.xml
 
 venv/*
+content/.obsidian/app.json
+content/.obsidian/appearance.json
+content/.obsidian/core-plugins.json
+content/.obsidian/workspace.json

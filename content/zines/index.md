@@ -8,7 +8,7 @@ categories= [""]
 tags= [""]
 unlisted=true
 slug="zines"
-featured_image= "image.png"
+featured_image= "Screenshot 2026-09-22 at 12.23.51 AM.png"
 +++
 
 Sun Shines Bright is also a series of printed zines. Each one has a QR code on the back that brings you here, where you can find what is in it and the links it points at.

@@ -1,13 +1,13 @@
 +++
 date = '2026-06-04T15:38:10+02:00'
-draft = true
+draft = false
 title = 'Real ML Johannesburg'
 summary = "Taking Sun Shines Bright to the REAL ML workshop in Johannesburg."
 authors= [""]
 categories= [""]
 tags= [""]
 unlisted=true
-featured_image= "image.png"
+featured_image= "IMG_4561.JPEG"
 +++
 
 In May 2026, I took Sun Shines Bright to the REAL ML workshop in Johannesburg. Thanks to Namita Aavriti for encouraging me to apply.

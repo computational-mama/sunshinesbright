@@ -1,5 +1,5 @@
 +++
-date = '2026-10-04T18:47:04+02:00'
+date = '2026-10-03'
 draft = false
 title = 'Solarbot'
 summary = "**Solarbot** is a portable feminist AI server"

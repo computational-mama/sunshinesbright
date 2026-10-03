@@ -56,7 +56,10 @@ The first fine-tuning experiments didn't give me good results, so I moved to a s
 
 ## Learnings
 
-The use of a portable AI server meant that we needn’t be restricted to text based chat interfaces. We could explore voice, different screen sizes, and other combinations. At [REALML 2026 Johannesburg](https://realml.org/programming/real-ml-workshop-2026-johannesburg-south-africa/), I was advised to have measurable energy data on the solarbot. This is now in testing along with Ying! :)**
+The use of a portable AI server meant that we needn’t be restricted to text based chat interfaces. We could explore voice, different screen sizes, and other combinations. At [REALML 2026 Johannesburg](https://realml.org/programming/real-ml-workshop-2026-johannesburg-south-africa/), I was advised to have measurable energy data on the solarbot. This is now in testing along with Ying! :)
+
+{{% figure src="datareading1.png" %}} Solarbot Power Draw Reading {{% /figure %}}
+{{% figure src="datareading2.png" %}} Solarbot Power Draw Reading {{% /figure %}}
 
 
 

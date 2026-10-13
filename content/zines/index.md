@@ -15,6 +15,12 @@ Sun Shines Bright is also a series of printed zines. Each one has a QR code on t
 
 The zines are made with [p5.(gen)zine](https://munusshih.github.io/p5.genzine/), so each one is a small program you can print and fold yourself.
 
+Download the zines as PDF, page by page:
+
+- [Sun Shines Bright Vol.1](pdf/SunShinesBright-Vol1-zine-pagebypage.pdf)
+- [Sun Shines Bright Vol.2](pdf/SunShinesBright-Vol2-zine-pagebypage.pdf)
+- [Sun Shines Bright Vol.3](pdf/SunShinesBright-Vol3-zine-pagebypage.pdf)
+
 <style>
 /* Three zines side by side. The text column on this site is 33rem, but images
    are allowed 1040px, so the grid uses that wider measure and the paragraphs

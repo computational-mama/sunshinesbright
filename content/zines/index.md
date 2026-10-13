@@ -15,12 +15,6 @@ Sun Shines Bright is also a series of printed zines. Each one has a QR code on t
 
 The zines are made with [p5.(gen)zine](https://munusshih.github.io/p5.genzine/), so each one is a small program you can print and fold yourself.
 
-Download the zines as PDF, page by page:
-
-- [Sun Shines Bright Vol.1](pdf/SunShinesBright-Vol1-zine-pagebypage.pdf)
-- [Sun Shines Bright Vol.2](pdf/SunShinesBright-Vol2-zine-pagebypage.pdf)
-- [Sun Shines Bright Vol.3](pdf/SunShinesBright-Vol3-zine-pagebypage.pdf)
-
 <style>
 /* Three zines side by side. The text column on this site is 33rem, but images
    are allowed 1040px, so the grid uses that wider measure and the paragraphs
@@ -51,6 +45,8 @@ Download the zines as PDF, page by page:
 <div class="zine-grid">
 <div class="zine">
 
+<p><a href="pdf/SunShinesBright-Vol1-zine-pagebypage.pdf">Download Vol.1 as PDF</a></p>
+
 {{% figure src="vol1-cover.png" %}} Sun Shines Bright Vol.1. Experiments in running solar powered servers for Small Language Models. By computational mama, April 2025. {{% /figure %}}
 
 <p>Building a small solar powered server from scratch, and the questions that come with it. What it takes to self host a language model on renewable power, and why you might want to.</p>
@@ -63,6 +59,8 @@ Download the zines as PDF, page by page:
 </div>
 <div class="zine">
 
+<p><a href="pdf/SunShinesBright-Vol2-zine-pagebypage.pdf">Download Vol.2 as PDF</a></p>
+
 {{% figure src="vol2-cover.png" %}} Sun Shines Bright Vol.2. Fine-tuning a Small Language Model. By computational mama, Sameera Mudgal and lekkerying, September 2026. {{% /figure %}}
 
 <p>Making a dataset by hand and using it to steer a small model with LoRA. On the labour that goes into a dataset, and what fine-tuning can and cannot change.</p>
@@ -72,6 +70,8 @@ Download the zines as PDF, page by page:
 </ul>
 </div>
 <div class="zine">
+
+<p><a href="pdf/SunShinesBright-Vol3-zine-pagebypage.pdf">Download Vol.3 as PDF</a></p>
 
 {{% figure src="vol3-cover.png" %}} Sun Shines Bright Vol.3. Building Solarbot: a portable solar powered AI server. By computational mama and lekkerying, September 2026. {{% /figure %}}
 

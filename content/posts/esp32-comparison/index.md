@@ -7,7 +7,6 @@ authors= [""]
 categories= [""]
 tags= [""]
 unlisted=true
-slug="esp32-comparison"
 +++
 
 <span class="esp32-page"></span>

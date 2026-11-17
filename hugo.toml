@@ -67,9 +67,3 @@ identifier = "zines"
 name = "Zines"
 url = "/zines/"
 weight = 6
-
-[[menu.main]]
-identifier = "esp32"
-name = "ESP32 test"
-url = "/esp32-comparison/"
-weight = 7

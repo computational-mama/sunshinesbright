@@ -7,6 +7,7 @@ authors= [""]
 categories= [""]
 tags= [""]
 unlisted=true
+featured_image= "esp32-setup.jpg"
 +++
 
 <span class="esp32-page"></span>
@@ -25,6 +26,10 @@ article:has(.esp32-page) .entry-content th,
 article:has(.esp32-page) .entry-content td { padding: 6px 8px; }
 article:has(.esp32-page) .entry-content th:first-child,
 article:has(.esp32-page) .entry-content td:first-child { padding-left: 0; }
+/* Photos as wide as the text column */
+article:has(.esp32-page) .article-img { max-width: var(--max-content-width); width: var(--content-width); margin: 0 auto; }
+article:has(.esp32-page) figure,
+article:has(.esp32-page) .figure-controls { max-width: none; width: 100%; }
 @media only screen and (max-width: 700px) {
   article:has(.esp32-page) .entry-content table { display: block; overflow-x: auto; }
 }
@@ -43,6 +48,8 @@ On these 10 questions the ESP32 used about 3.9 times the energy of the Pi (7.8 W
 | Answer length | stops at 30 words | free length |
 | Questions | typed from a list on the SD card | asked by voice on 5 November |
 | Run | 13 to 14 November, 10 questions, 7.8 hours | 5 November, 10 questions |
+
+{{% figure src="esp32-setup.jpg" %}} The ESP32 test setup: the board and the 2 inch screen on a protoboard, the SD card reader, the INA219 power meter and the PiSugar 3 battery. {{% /figure %}}
 
 The ESP32 has too little memory to hold the model, so it reads the whole model (224 MB) from an SD card once for every word it writes. That is why it is slow: about 100 seconds per word, unless the board guesses a few words ahead correctly.
 
@@ -70,6 +77,11 @@ The ESP32 needs about an hour for any question that is not in its training data,
 
 Neither model answers reliably, but they fail in different ways. The ESP32 model sounds like the source and invents it. The Pi model sounds confident and invents facts.
 
+{{% figure src="esp32-question.jpg" %}} The ESP32 working on the question Who is Fei-Fei Li?: it is reading the question (layer 12 of 32), and the screen counts time and energy. {{% /figure %}}
+{{% figure src="esp32-answer.jpg" %}} The ESP32 when it is done: 30 words, correct, cut off at the word limit. {{% /figure %}}
+{{% figure src="pi-question.jpg" %}} The Pi with the same question. {{% /figure %}}
+{{% figure src="pi-answer.jpg" %}} The Pi answering. This run calls her a professor at Tsinghua University. She is at Stanford. An earlier run gave a different answer, also wrong (see below). {{% /figure %}}
+
 - **Who is Fei-Fei Li?** The ESP32 is right: Chinese-American computer scientist, AI, computer vision. The Pi starts right and then calls her the CEO of a ride-hailing company.
 - **Spivak and epistemic violence.** The ESP32 is close to the real idea, with a made-up quote. The Pi gives a reasonable general definition.
 - **The carrier bag in one sentence.** The ESP32 reads it as people keeping their car in a bag. The Pi writes one sentence, but about location and value, not the theory.
@@ -79,15 +91,10 @@ Neither model answers reliably, but they fail in different ways. The ESP32 model
 
 The ESP32 model is right where its small training set covers the topic (Fei-Fei Li, partly Spivak) and breaks down on anything outside it. Its answers stop at 30 words, in the middle of a sentence. The Pi's answers are complete and fluent, and most of them are wrong on the facts. The Pi heard its questions by voice and misheard several names ("Audra Lord", "Spivic"), which hurts its answers.
 
-All the answers and the numbers side by side are on the [solarbot dashboard](https://solarbot.cmama.xyz): open the Static tab and the section "Compare with the ESP32 board". It is only online while the solarbot is switched on.
+All the answers and the numbers side by side are on the [solarbot dashboard](https://solarbot.cmama.xyz): open the Static tab and the section "Compare with the ESP32 board". The dashboard is only live while the solarbot is switched on. While the Pi is offline, a [copy of the dashboard](https://solarbot-copy.cmama.xyz) keeps running, so the insights stay visible.
 
-## The board restarted a lot
-
-During the unattended run the board restarted 16 times: 13 times because a software watchdog timer went off, and 3 times because the supply voltage dipped. After each restart it carried on at the right question, because it keeps its place on the SD card, so the whole list still finished.
-
-## Caveats
+## Things to note
 
 - This is not a like-for-like test. The ESP32 stops at 30 words, the Pi writes free length, the models differ, and the two energy meters measure different things. Compare the pattern, not single numbers.
-- The Pi's idle draw (about 1.9 W) is included in its totals. The ESP32's idle draw was not measured again for the current wiring.
 - The Pi heard the questions by voice and the ESP32 got the exact text.
 - An earlier run on the ESP32 with answers up to 60 words finished 7 of the 10 questions in 10.4 hours and used 10.25 Wh.
